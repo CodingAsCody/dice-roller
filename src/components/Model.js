@@ -9,9 +9,9 @@ export function Model(props) {
 
   useFrame(({clock}) => {
     if (rotate) {
-      const a = clock.getElapsedTime() * 4.0;
+      const a = clock.getElapsedTime() * 15.0;
       mesh.current.rotation.x = a;
-      mesh.current.rotation.z = -a;
+      mesh.current.rotation.z = a;
     }
   });
 
