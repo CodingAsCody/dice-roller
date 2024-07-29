@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@react-three/cannon": "^6.6.0",
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
     "@types/three": "^0.167.1",
